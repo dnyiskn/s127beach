@@ -1,0 +1,34 @@
+html {
+    background-color: #A3754E;
+  }
+body {
+   margin:0;
+  }
+/* p {
+    align-self: center;
+    
+} */
+.container-main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+  .container-text{
+    padding-left: 4vw;
+  }
+  .text {
+    font-size: 4rem;
+    font-family: 'La Luxes';
+    text-align: center;
+    color: black;
+  }
+  @font-face {
+    font-family: 'La Luxes';
+    src: url(Set-Sail-Studios-La-Luxes-Serif.svg) format('svg');
+  }
+  .image{
+    width:40vw;
+    height: auto;
+    font-size: 4rem;
+  }
